@@ -54,7 +54,7 @@ namespace UHQKEK.Modules.Capture
                 string E2 = Encode("POST&" + E1, key);
                 E2 = HttpUtility.UrlEncode(E2);
                 httpRequest.AllowAutoRedirect = true;
-                httpRequest.AddHeader("authorization", "OAuth oauth_signature_method=\"HMAC - SHA1\", oauth_consumer_key=\"gf665hj0kpsdkpllgek11zrz\",oauth_version=\"1.0\", oauth_timestamp=\"" + Time + "\", oauth_nonce = \"" + id1 + "\", oauth_signature = \"" + E2 + "\"");
+                httpRequest.AddHeader("authorization", "OAuth oauth_signature_method=\"HMAC - SHA1\", oauth_consumer_key=\"KEY HERE\",oauth_version=\"1.0\", oauth_timestamp=\"" + Time + "\", oauth_nonce = \"" + id1 + "\", oauth_signature = \"" + E2 + "\"");
                 httpRequest.AddHeader("oauth_version", "2.0");
                 httpRequest.AddHeader("x-api-key", D3);
                 httpRequest.AddHeader("x-detected-locale", "USD|en|US");
