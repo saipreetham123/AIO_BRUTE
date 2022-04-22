@@ -70,7 +70,7 @@ namespace UHQKEK.Modules.Capture
                     httpRequest.AddHeader("upgrade-insecure-requests", "1");
                     httpRequest.AddHeader("user-agent", "Mozilla/5.0 (Linux; Android 7.1.2; G011A Build/N2G48H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36 Mobile/1 EtsyInc/5.84.0 Android/1");
                     httpRequest.AddHeader("x-requested-with", "com.etsy.android");
-                    string str2 = httpRequest.Post("https://www.etsy.com/externalredirect", "redirect_id=1&token=" + T1 + "&api_key=gf665hj0kpsdkpllgek11zrz&version=5.84.0", "application/x-www-form-urlencoded").ToString();
+                    string str2 = httpRequest.Post("https://www.etsy.com/externalredirect", "redirect_id=1&token=" + T1 + "&api_key=API KEY HERE &version=5.84.0", "application/x-www-form-urlencoded").ToString();
                     string cook1 = httpRequest.Cookies.GetCookies("https://www.etsy.com/externalredirect")["et-v1-1-1-_etsy_com"].ToString();
                     string cook2 = httpRequest.Cookies.GetCookies("https://www.etsy.com/externalredirect")["st-v1-1-1-_etsy_com"].ToString();
                     string cook3 = httpRequest.Cookies.GetCookies("https://www.etsy.com/externalredirect")["bc-v1-1-1-_etsy_com"].ToString();
