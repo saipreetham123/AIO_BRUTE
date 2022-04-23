@@ -1,7 +1,9 @@
 # AIO_BRUTE
-
+An Advanced level brute forcer with many modules along with discord and
+captcha solver support (most of the captcha services are supported).
 
 # This Code is a brute forcer for few websites 
+  
   Which can run any number of threads based on your 
   CPU capacity.
 
