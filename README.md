@@ -1,9 +1,7 @@
 # AIO_BRUTE
 
-# Clean UI implementation
 
-
-# This Code is a brute forcer for some websites 
+# This Code is a brute forcer for few websites 
   Which can run any number of threads based on your 
   CPU capacity.
 
@@ -18,4 +16,8 @@
   or account (Users can choose to use discord or not).
 
 # Most of the APIs have been removed, cuz I don't want to leak or
-  Cause any problem to anyone
+  Cause any problem to anyone.
+
+# Clean UI implementation
+
+# I am not responsible for any mis use of the code.
